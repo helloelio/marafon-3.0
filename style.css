@@ -38,6 +38,11 @@ h6 {
 p {
   font-weight: 400;
 }
+iframe {
+  width: 600px;
+  height: 450px;
+  max-width: 100%;
+}
 /* header */
 .header {
   background-image: url(./images/headers-bg.jpg);
@@ -135,7 +140,7 @@ p {
   color: #fff;
   text-align: center;
 
-  height: 273px;
+  min-height: 273px;
   padding-left: 180px;
   padding-right: 180px;
   margin-top: 15px;
@@ -154,7 +159,6 @@ p {
 }
 /* work */
 .work {
-  margin: 0 350px;
 }
 .work__title {
   font-family: "Montserrat";
@@ -167,6 +171,7 @@ p {
 .work__items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 /* работа с ховер */
 .work__image {
@@ -436,4 +441,143 @@ input:focus {
 }
 .footer__item-adress {
   margin-left: 42px;
+}
+
+/* media */
+
+@media (max-width: 1313px) {
+  img {
+    max-width: 100%;
+  }
+  .nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .feedback__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feedback__item {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+  .form__item {
+    padding-left: 0;
+    max-width: 500px;
+  }
+
+  .team__items {
+    flex-wrap: wrap;
+  }
+  .about__content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1100px) {
+  .burger-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: antiquewhite;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 15;
+  }
+  .burger-menu > span {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+  .about__text {
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+  .hero {
+    margin-top: 0;
+    margin-left: 60px;
+    padding: 100px 0 100px 0;
+  }
+  .about__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about__footer > span {
+    margin-top: 50px;
+  }
+  .about__footer > span:last-child {
+    margin-bottom: 50px;
+  }
+  .work__title {
+    text-align: center;
+  }
+  .how-we-work__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .reviews__items {
+    flex-wrap: wrap;
+  }
+  .reviews__item-arrow {
+    display: none;
+  }
+  .footer {
+    padding: 37px 30px 37px 30px;
+  }
+  .footer__item {
+    flex-wrap: wrap;
+  }
+  .footer__item-adress {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 527px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    text-align: center;
+  }
+  .hero__title {
+    font-size: 1.875em;
+  }
+  .work__image-hover > p {
+    display: none;
+  }
+  .team__items {
+    margin: 0;
+  }
+  .about__text {
+    padding: 30px;
+  }
+  .reviews__item-content-text {
+    padding-left: 20px;
+    margin-right: 0;
+  }
+  .form__number-format {
+    display: none;
+  }
+  .work__image:nth-child(2),
+  .work__image:nth-child(4) {
+    margin-left: 0;
+  }
+  .work__image {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .work__image {
+    margin: 0;
+  }
+  iframe {
+    display: none;
+  }
 }
