@@ -349,6 +349,7 @@ p {
   height: 100%;
 }
 .form__item {
+  max-width: 700px;
   padding-left: 180px;
   padding-top: 50px;
 }
