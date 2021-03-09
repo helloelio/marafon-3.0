@@ -154,7 +154,7 @@ p {
 }
 /* work */
 .work {
-  margin: 0 100px;
+  margin: 0 350px;
 }
 .work__title {
   font-family: "Montserrat";
@@ -167,7 +167,6 @@ p {
 .work__items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 /* работа с ховер */
 .work__image {
