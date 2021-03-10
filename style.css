@@ -392,18 +392,6 @@ iframe {
   border: none;
   border-bottom: 1px solid #ffffff;
 }
-.form__name:focus,
-.form__number:focus {
-  color: white;
-  font-size: 18px;
-  line-height: 30px;
-}
-.form__name:valid,
-.form__number:valid {
-  color: #fff;
-  font-size: 18px;
-  line-height: 30px;
-}
 
 .form__number-format {
   position: absolute;
@@ -411,6 +399,13 @@ iframe {
   right: 30px;
   color: #fff;
   opacity: 0.8;
+}
+input {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  outline: none;
+  border: none;
 }
 input::placeholder {
   font-size: 18px;
@@ -420,8 +415,10 @@ input::placeholder {
 }
 input:focus {
   outline: none;
+  border: none;
 }
 .form__button {
+  color: black;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
