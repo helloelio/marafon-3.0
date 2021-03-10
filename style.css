@@ -485,7 +485,7 @@ input:focus {
 @media (max-width: 1100px) {
   .nav-in-burger {
     position: fixed;
-    top: 15%;
+    top: 12%;
     display: flex;
     font-size: 32px;
     z-index: 25;
@@ -497,7 +497,7 @@ input:focus {
     margin: 0 auto;
   }
   .nav-items-in-burger > li {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .nav-number-in-burger {
     display: none;
