@@ -485,7 +485,7 @@ input:focus {
 @media (max-width: 1100px) {
   .nav-in-burger {
     position: fixed;
-    top: 20%;
+    top: 15%;
     display: flex;
     font-size: 32px;
     z-index: 25;
