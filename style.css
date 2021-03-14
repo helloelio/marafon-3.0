@@ -115,8 +115,13 @@ iframe {
   cursor: pointer;
   background-color: #cc8b86;
   border: none;
-  padding: 25px 65px;
+
   transition: 0.3s ease;
+}
+.hero__button > button > a{
+    display: block;
+    padding: 25px 65px;
+    text-decoration: none;
 }
 
 .hero__button > button:hover {
