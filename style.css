@@ -118,10 +118,10 @@ iframe {
 
   transition: 0.3s ease;
 }
-.hero__button > button > a{
-    display: block;
-    padding: 25px 65px;
-    text-decoration: none;
+.hero__button > button > a {
+  display: block;
+  padding: 25px 65px;
+  text-decoration: none;
 }
 
 .hero__button > button:hover {
@@ -482,7 +482,7 @@ input:focus {
   }
   .form__item {
     padding-left: 0;
-    max-width: 500px;
+    max-width: 600px;
   }
 
   .team__items {
