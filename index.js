@@ -4,7 +4,7 @@ const burgerMenu = document.querySelector('.burger-menu');
 const nav = document.querySelector('.nav');
 const navItems = document.querySelector('.nav__items');
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', () => {
   burgerMenu.classList.toggle('burger-menu-open');
   body.classList.toggle('scroll-hidden');
   nav.classList.toggle('nav-in-burger');
